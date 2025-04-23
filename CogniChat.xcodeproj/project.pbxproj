@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD45AB632DAE4DBC00D2B252 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CD45AB622DAE4DBC00D2B252 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9EE5222DAE43B6006C9D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9EE5092DAE43B4006C9D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9EE5102DAE43B4006C9D2B;
+			remoteInfo = CogniChat;
+		};
+		CD9EE52C2DAE43B6006C9D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9EE5092DAE43B4006C9D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9EE5102DAE43B4006C9D2B;
+			remoteInfo = CogniChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD45AB622DAE4DBC00D2B252 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CD9EE5112DAE43B4006C9D2B /* CogniChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CogniChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EE5212DAE43B6006C9D2B /* CogniChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CogniChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EE52B2DAE43B6006C9D2B /* CogniChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CogniChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD9EE5132DAE43B4006C9D2B /* CogniChat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CogniChat;
+			sourceTree = "<group>";
+		};
+		CD9EE5242DAE43B6006C9D2B /* CogniChatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CogniChatTests;
+			sourceTree = "<group>";
+		};
+		CD9EE52E2DAE43B6006C9D2B /* CogniChatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CogniChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9EE50E2DAE43B4006C9D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE51E2DAE43B6006C9D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE5282DAE43B6006C9D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9EE5082DAE43B4006C9D2B = {
+			isa = PBXGroup;
+			children = (
+				CD45AB622DAE4DBC00D2B252 /* Localizable.xcstrings */,
+				CD9EE5132DAE43B4006C9D2B /* CogniChat */,
+				CD9EE5242DAE43B6006C9D2B /* CogniChatTests */,
+				CD9EE52E2DAE43B6006C9D2B /* CogniChatUITests */,
+				CD9EE5122DAE43B4006C9D2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9EE5122DAE43B4006C9D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EE5112DAE43B4006C9D2B /* CogniChat.app */,
+				CD9EE5212DAE43B6006C9D2B /* CogniChatTests.xctest */,
+				CD9EE52B2DAE43B6006C9D2B /* CogniChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9EE5102DAE43B4006C9D2B /* CogniChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EE5352DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChat" */;
+			buildPhases = (
+				CD9EE50D2DAE43B4006C9D2B /* Sources */,
+				CD9EE50E2DAE43B4006C9D2B /* Frameworks */,
+				CD9EE50F2DAE43B4006C9D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EE5132DAE43B4006C9D2B /* CogniChat */,
+			);
+			name = CogniChat;
+			packageProductDependencies = (
+			);
+			productName = CogniChat;
+			productReference = CD9EE5112DAE43B4006C9D2B /* CogniChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9EE5202DAE43B6006C9D2B /* CogniChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EE5382DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChatTests" */;
+			buildPhases = (
+				CD9EE51D2DAE43B6006C9D2B /* Sources */,
+				CD9EE51E2DAE43B6006C9D2B /* Frameworks */,
+				CD9EE51F2DAE43B6006C9D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9EE5232DAE43B6006C9D2B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EE5242DAE43B6006C9D2B /* CogniChatTests */,
+			);
+			name = CogniChatTests;
+			packageProductDependencies = (
+			);
+			productName = CogniChatTests;
+			productReference = CD9EE5212DAE43B6006C9D2B /* CogniChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9EE52A2DAE43B6006C9D2B /* CogniChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EE53B2DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChatUITests" */;
+			buildPhases = (
+				CD9EE5272DAE43B6006C9D2B /* Sources */,
+				CD9EE5282DAE43B6006C9D2B /* Frameworks */,
+				CD9EE5292DAE43B6006C9D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9EE52D2DAE43B6006C9D2B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD9EE52E2DAE43B6006C9D2B /* CogniChatUITests */,
+			);
+			name = CogniChatUITests;
+			packageProductDependencies = (
+			);
+			productName = CogniChatUITests;
+			productReference = CD9EE52B2DAE43B6006C9D2B /* CogniChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9EE5092DAE43B4006C9D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					CD9EE5102DAE43B4006C9D2B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CD9EE5202DAE43B6006C9D2B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CD9EE5102DAE43B4006C9D2B;
+					};
+					CD9EE52A2DAE43B6006C9D2B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CD9EE5102DAE43B4006C9D2B;
+					};
+				};
+			};
+			buildConfigurationList = CD9EE50C2DAE43B4006C9D2B /* Build configuration list for PBXProject "CogniChat" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CD9EE5082DAE43B4006C9D2B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD9EE5122DAE43B4006C9D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9EE5102DAE43B4006C9D2B /* CogniChat */,
+				CD9EE5202DAE43B6006C9D2B /* CogniChatTests */,
+				CD9EE52A2DAE43B6006C9D2B /* CogniChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9EE50F2DAE43B4006C9D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45AB632DAE4DBC00D2B252 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE51F2DAE43B6006C9D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE5292DAE43B6006C9D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9EE50D2DAE43B4006C9D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE51D2DAE43B6006C9D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EE5272DAE43B6006C9D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9EE5232DAE43B6006C9D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9EE5102DAE43B4006C9D2B /* CogniChat */;
+			targetProxy = CD9EE5222DAE43B6006C9D2B /* PBXContainerItemProxy */;
+		};
+		CD9EE52D2DAE43B6006C9D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9EE5102DAE43B4006C9D2B /* CogniChat */;
+			targetProxy = CD9EE52C2DAE43B6006C9D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD9EE5332DAE43B6006C9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9EE5342DAE43B6006C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD9EE5362DAE43B6006C9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CogniChat/CogniChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD9EE5372DAE43B6006C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CogniChat/CogniChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD9EE5392DAE43B6006C9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CogniChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CogniChat";
+			};
+			name = Debug;
+		};
+		CD9EE53A2DAE43B6006C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CogniChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CogniChat";
+			};
+			name = Release;
+		};
+		CD9EE53C2DAE43B6006C9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CogniChat;
+			};
+			name = Debug;
+		};
+		CD9EE53D2DAE43B6006C9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3SYSJ422C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swanine.CogniChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CogniChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9EE50C2DAE43B4006C9D2B /* Build configuration list for PBXProject "CogniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EE5332DAE43B6006C9D2B /* Debug */,
+				CD9EE5342DAE43B6006C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EE5352DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EE5362DAE43B6006C9D2B /* Debug */,
+				CD9EE5372DAE43B6006C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EE5382DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EE5392DAE43B6006C9D2B /* Debug */,
+				CD9EE53A2DAE43B6006C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EE53B2DAE43B6006C9D2B /* Build configuration list for PBXNativeTarget "CogniChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EE53C2DAE43B6006C9D2B /* Debug */,
+				CD9EE53D2DAE43B6006C9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9EE5092DAE43B4006C9D2B /* Project object */;
+}

@@ -1,0 +1,105 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "Chats" : {
+
+    },
+    "Clear Current Chat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Clear Current Chat"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空当前对话"
+          }
+        }
+      }
+    },
+    "CogniChat 帮助" : {
+
+    },
+    "Export Chat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Export Chat"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出对话"
+          }
+        }
+      }
+    },
+    "input" : {
+
+    },
+    "N" : {
+
+    },
+    "New chat" : {
+
+    },
+    "New Chat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "New Chat"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新建对话"
+          }
+        }
+      }
+    },
+    "Projects" : {
+
+    },
+    "Recents" : {
+
+    },
+    "Settings" : {
+
+    },
+    "对话" : {
+
+    },
+    "导入对话..." : {
+
+    },
+    "导出对话..." : {
+
+    },
+    "搜索" : {
+
+    },
+    "新建对话" : {
+
+    },
+    "欢迎使用 CogniChat" : {
+
+    },
+    "设置..." : {
+
+    },
+    "请从左侧边栏选择一个对话，或创建新的对话" : {
+
+    }
+  },
+  "version" : "1.0"
+}
